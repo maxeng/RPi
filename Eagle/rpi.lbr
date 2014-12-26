@@ -134,90 +134,88 @@
 <package name="RPI-HAT">
 <description>&lt;b&gt;Raspberry Pi hat board&lt;/b&gt;&lt;p&gt;
 https://github.com/raspberrypi/hats/blob/master/hat-board-mechanical.pdf?raw=true</description>
-<pad name="1" x="-24.13" y="23.731" drill="0.8" shape="square"/>
-<pad name="2" x="-24.13" y="26.271" drill="0.8" rot="R90"/>
-<pad name="3" x="-21.59" y="23.731" drill="0.8"/>
-<pad name="4" x="-21.59" y="26.271" drill="0.8"/>
-<pad name="5" x="-19.05" y="23.731" drill="0.8"/>
-<pad name="6" x="-19.05" y="26.271" drill="0.8"/>
-<pad name="7" x="-16.51" y="23.731" drill="0.8"/>
-<pad name="8" x="-16.51" y="26.271" drill="0.8"/>
-<pad name="9" x="-13.97" y="23.731" drill="0.8"/>
-<pad name="10" x="-13.97" y="26.271" drill="0.8"/>
-<pad name="11" x="-11.43" y="23.731" drill="0.8"/>
-<pad name="12" x="-11.43" y="26.271" drill="0.8"/>
-<pad name="13" x="-8.89" y="23.731" drill="0.8"/>
-<pad name="14" x="-8.89" y="26.271" drill="0.8"/>
-<pad name="15" x="-6.35" y="23.731" drill="0.8"/>
-<pad name="16" x="-6.35" y="26.271" drill="0.8"/>
-<pad name="17" x="-3.81" y="23.731" drill="0.8"/>
-<pad name="18" x="-3.81" y="26.271" drill="0.8"/>
-<pad name="19" x="-1.27" y="23.731" drill="0.8"/>
-<pad name="20" x="-1.27" y="26.271" drill="0.8"/>
-<pad name="21" x="1.27" y="23.731" drill="0.8"/>
-<pad name="22" x="1.27" y="26.271" drill="0.8"/>
-<pad name="23" x="3.81" y="23.731" drill="0.8"/>
-<pad name="24" x="3.81" y="26.271" drill="0.8"/>
-<pad name="25" x="6.35" y="23.731" drill="0.8"/>
-<pad name="26" x="6.35" y="26.271" drill="0.8"/>
-<pad name="27" x="8.89" y="23.731" drill="0.8"/>
-<pad name="28" x="8.89" y="26.271" drill="0.8"/>
-<pad name="29" x="11.43" y="23.731" drill="0.8"/>
-<pad name="30" x="11.43" y="26.271" drill="0.8"/>
-<pad name="31" x="13.97" y="23.731" drill="0.8"/>
-<pad name="32" x="13.97" y="26.271" drill="0.8"/>
-<pad name="33" x="16.51" y="23.731" drill="0.8"/>
-<pad name="34" x="16.51" y="26.271" drill="0.8"/>
-<pad name="35" x="19.05" y="23.731" drill="0.8"/>
-<pad name="36" x="19.05" y="26.271" drill="0.8"/>
-<pad name="37" x="21.59" y="23.731" drill="0.8"/>
-<pad name="38" x="21.59" y="26.271" drill="0.8"/>
-<pad name="39" x="24.13" y="23.731" drill="0.8"/>
-<pad name="40" x="24.13" y="26.271" drill="0.8"/>
-<wire x1="-29.5" y1="28.5" x2="29.5" y2="28.5" width="0.127" layer="21"/>
-<wire x1="-32.5" y1="25.5" x2="-32.5" y2="10" width="0.127" layer="21"/>
-<wire x1="-32.5" y1="-9" x2="-32.5" y2="-25" width="0.127" layer="21"/>
-<wire x1="-29.5" y1="-27.5" x2="29.5" y2="-27.5" width="0.127" layer="21"/>
-<hole x="-29" y="25" drill="2.75"/>
-<hole x="29" y="25" drill="2.75"/>
-<hole x="-29" y="-24" drill="2.75"/>
-<hole x="29" y="-24" drill="2.75"/>
-<wire x1="32.5" y1="-25" x2="32.5" y2="25.5" width="0.127" layer="21"/>
-<dimension x1="-29" y1="25" x2="29" y2="25" x3="0" y3="32.75" textsize="1.27" layer="21"/>
-<wire x1="-32.5" y1="25.5" x2="-29.5" y2="28.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-29.5" y1="-27.5" x2="-32.5" y2="-25" width="0.127" layer="21" curve="-90"/>
-<wire x1="32.5" y1="-25" x2="29.5" y2="-27.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="29.5" y1="28.5" x2="32.5" y2="25.5" width="0.127" layer="21" curve="-90"/>
-<dimension x1="-32.5" y1="25.25" x2="32.5" y2="25.25" x3="0" y3="37" textsize="1.27" layer="21"/>
-<dimension x1="29" y1="25" x2="29" y2="-24" x3="37" y3="0.5" textsize="1.27" layer="21"/>
-<circle x="-29" y="24.9" radius="3.1" width="0.127" layer="21"/>
-<circle x="29" y="24.9" radius="3.1" width="0.127" layer="21"/>
-<circle x="29" y="-24.1" radius="3.1" width="0.127" layer="21"/>
-<dimension x1="30.375" y1="-24" x2="27.625" y2="-24" x3="29" y3="-32" textsize="1.27" layer="21" dtype="diameter"/>
-<dimension x1="32.1" y1="-24.1" x2="25.9" y2="-24.1" x3="29" y3="-36" textsize="1.27" layer="21" dtype="diameter"/>
-<wire x1="0" y1="25.5" x2="0" y2="24.5" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="25" x2="0.5" y2="25" width="0.127" layer="21"/>
-<dimension x1="-29" y1="25" x2="0" y2="25" x3="-14.5" y3="20" textsize="1.27" layer="21"/>
-<circle x="-29" y="-24" radius="3.1" width="0.127" layer="21"/>
-<dimension x1="29.5" y1="28.5" x2="29.5" y2="-27.5" x3="41" y3="0.5" textsize="1.27" layer="21"/>
-<dimension x1="29.5" y1="25.5" x2="31.621321875" y2="27.621321875" x3="37.13675625" y3="33.136753125" textsize="1.27" layer="21" dtype="radius"/>
-<dimension x1="-29" y1="-24" x2="-22.5" y2="-27.5" x3="-23" y3="-25.75" textsize="1.27" layer="21" dtype="vertical"/>
-<dimension x1="-29" y1="-24" x2="-32.5" y2="-24" x3="-30.75" y3="-32" textsize="1.27" layer="21" dtype="vertical"/>
-<wire x1="-31.5" y1="-8" x2="-28.5" y2="-8" width="0.127" layer="21"/>
-<wire x1="-31.5" y1="9" x2="-28.5" y2="9" width="0.127" layer="21"/>
-<wire x1="-27.5" y1="8" x2="-27.5" y2="-7" width="0.127" layer="21"/>
-<wire x1="-32.5" y1="-9" x2="-31.5" y2="-8" width="0.127" layer="21" curve="-90"/>
-<wire x1="-31.5" y1="9" x2="-32.5" y2="10" width="0.127" layer="21" curve="-90"/>
-<wire x1="-27.5" y1="-7" x2="-28.5" y2="-8" width="0.127" layer="21" curve="-90"/>
-<wire x1="-28.5" y1="9" x2="-27.5" y2="8" width="0.127" layer="21" curve="-90"/>
-<dimension x1="-31.5" y1="10" x2="-32.158503125" y2="9.247421875" x3="-37.294834375" y3="3.377321875" textsize="1.27" layer="21" dtype="radius"/>
-<dimension x1="-32.5" y1="10" x2="-27.5" y2="10" x3="-30" y3="12" textsize="1.27" layer="21"/>
-<dimension x1="-28.5" y1="9" x2="-28.5" y2="-8" x3="-23.5" y3="0.5" textsize="1.27" layer="21"/>
-<dimension x1="-31.5" y1="-8" x2="-31.5" y2="-27.5" x3="-36.5" y3="-17.75" textsize="1.27" layer="21"/>
-<wire x1="-25.5" y1="27.5" x2="-25.5" y2="22.5" width="0.127" layer="21"/>
-<wire x1="-25.5" y1="22.5" x2="25.5" y2="22.5" width="0.127" layer="21"/>
-<wire x1="25.5" y1="22.5" x2="25.5" y2="27.5" width="0.127" layer="21"/>
-<wire x1="25.5" y1="27.5" x2="-25.5" y2="27.5" width="0.127" layer="21"/>
+<pad name="1" x="-24.13" y="-1.27" drill="0.8" shape="square"/>
+<pad name="2" x="-24.13" y="1.27" drill="0.8"/>
+<pad name="3" x="-21.59" y="-1.27" drill="0.8"/>
+<pad name="4" x="-21.59" y="1.27" drill="0.8"/>
+<pad name="5" x="-19.05" y="-1.27" drill="0.8"/>
+<pad name="6" x="-19.05" y="1.27" drill="0.8"/>
+<pad name="7" x="-16.51" y="-1.27" drill="0.8"/>
+<pad name="8" x="-16.51" y="1.27" drill="0.8"/>
+<pad name="9" x="-13.97" y="-1.27" drill="0.8"/>
+<pad name="10" x="-13.97" y="1.27" drill="0.8"/>
+<pad name="11" x="-11.43" y="-1.27" drill="0.8"/>
+<pad name="12" x="-11.43" y="1.27" drill="0.8"/>
+<pad name="13" x="-8.89" y="-1.27" drill="0.8"/>
+<pad name="14" x="-8.89" y="1.27" drill="0.8"/>
+<pad name="15" x="-6.35" y="-1.27" drill="0.8"/>
+<pad name="16" x="-6.35" y="1.27" drill="0.8"/>
+<pad name="17" x="-3.81" y="-1.27" drill="0.8"/>
+<pad name="18" x="-3.81" y="1.27" drill="0.8"/>
+<pad name="19" x="-1.27" y="-1.27" drill="0.8"/>
+<pad name="20" x="-1.27" y="1.27" drill="0.8"/>
+<pad name="21" x="1.27" y="-1.27" drill="0.8"/>
+<pad name="22" x="1.27" y="1.27" drill="0.8"/>
+<pad name="23" x="3.81" y="-1.27" drill="0.8"/>
+<pad name="24" x="3.81" y="1.27" drill="0.8"/>
+<pad name="25" x="6.35" y="-1.27" drill="0.8"/>
+<pad name="26" x="6.35" y="1.27" drill="0.8"/>
+<pad name="27" x="8.89" y="-1.27" drill="0.8"/>
+<pad name="28" x="8.89" y="1.27" drill="0.8"/>
+<pad name="29" x="11.43" y="-1.27" drill="0.8"/>
+<pad name="30" x="11.43" y="1.27" drill="0.8"/>
+<pad name="31" x="13.97" y="-1.27" drill="0.8"/>
+<pad name="32" x="13.97" y="1.27" drill="0.8"/>
+<pad name="33" x="16.51" y="-1.27" drill="0.8"/>
+<pad name="34" x="16.51" y="1.27" drill="0.8"/>
+<pad name="35" x="19.05" y="-1.27" drill="0.8"/>
+<pad name="36" x="19.05" y="1.27" drill="0.8"/>
+<pad name="37" x="21.59" y="-1.27" drill="0.8"/>
+<pad name="38" x="21.59" y="1.27" drill="0.8"/>
+<pad name="39" x="24.13" y="-1.27" drill="0.8"/>
+<pad name="40" x="24.13" y="1.27" drill="0.8"/>
+<hole x="-29" y="0" drill="2.75"/>
+<hole x="29" y="0" drill="2.75"/>
+<dimension x1="-29" y1="0" x2="29" y2="0" x3="0" y3="8" textsize="1.27" layer="21"/>
+<circle x="-29" y="0" radius="3.1" width="0.127" layer="21"/>
+<circle x="29" y="0" radius="3.1" width="0.127" layer="21"/>
+<dimension x1="0" y1="0" x2="-29" y2="0" x3="-14.5" y3="-7" textsize="1.27" layer="21"/>
+<dimension x1="29" y1="0" x2="29" y2="-49" x3="37" y3="-24.5" textsize="1.27" layer="21"/>
+<hole x="29" y="-49" drill="2.75"/>
+<circle x="29" y="-49" radius="3.1" width="0.127" layer="21"/>
+<hole x="-29" y="-49" drill="2.75"/>
+<circle x="-29" y="-49" radius="3.1" width="0.127" layer="21"/>
+<dimension x1="30.375" y1="-49" x2="27.625" y2="-49" x3="29" y3="-56.5" textsize="1.27" layer="21" dtype="diameter"/>
+<dimension x1="32.1" y1="-49" x2="25.9" y2="-49" x3="29" y3="-60" textsize="1.27" layer="21" dtype="diameter"/>
+<wire x1="-29.5" y1="3.5" x2="29.5" y2="3.5" width="0.127" layer="21"/>
+<dimension x1="32.5" y1="-52.5" x2="31.5" y2="3.5" x3="41" y3="-24.5" textsize="1.27" layer="21" dtype="vertical"/>
+<wire x1="32.5" y1="0.5" x2="32.5" y2="-49.5" width="0.127" layer="21"/>
+<wire x1="29.5" y1="-52.5" x2="-29.5" y2="-52.5" width="0.127" layer="21"/>
+<wire x1="-32.5" y1="-49.5" x2="-32.5" y2="-34" width="0.127" layer="21"/>
+<wire x1="-32.5" y1="-15" x2="-32.5" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-29.5" y1="-52.5" x2="-32.5" y2="-49.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="32.5" y1="-49.5" x2="29.5" y2="-52.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-32.5" y1="0.5" x2="-29.5" y2="3.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="29.5" y1="3.5" x2="32.5" y2="0.5" width="0.127" layer="21" curve="-90"/>
+<dimension x1="29.5" y1="0.5" x2="31.493090625" y2="2.742228125" x3="36.675128125" y3="8.572021875" textsize="1.27" layer="21" dtype="radius"/>
+<dimension x1="-32.5" y1="0.5" x2="32.5" y2="0.5" x3="0" y3="12" textsize="1.27" layer="21"/>
+<dimension x1="-27.5" y1="-33" x2="-27.5" y2="-16" x3="-22" y3="-24.5" textsize="1.27" layer="21"/>
+<wire x1="-31.5" y1="-33" x2="-28.5" y2="-33" width="0.127" layer="21"/>
+<wire x1="-27.5" y1="-32" x2="-27.5" y2="-17" width="0.127" layer="21"/>
+<wire x1="-28.5" y1="-16" x2="-31.5" y2="-16" width="0.127" layer="21"/>
+<wire x1="-32.5" y1="-34" x2="-31.5" y2="-33" width="0.127" layer="21" curve="-90"/>
+<wire x1="-31.5" y1="-16" x2="-32.5" y2="-15" width="0.127" layer="21" curve="-90"/>
+<wire x1="-27.5" y1="-32" x2="-28.5" y2="-33" width="0.127" layer="21" curve="-90"/>
+<wire x1="-28.5" y1="-16" x2="-27.5" y2="-17" width="0.127" layer="21" curve="-90"/>
+<dimension x1="-31.5" y1="-33" x2="-31.5" y2="-52.5" x3="-37.5" y3="-42.75" textsize="1.27" layer="21"/>
+<dimension x1="-29" y1="-49" x2="-29" y2="-52.5" x3="-22" y3="-50.75" textsize="1.27" layer="21"/>
+<dimension x1="-32.5" y1="-15" x2="-27.5" y2="-15" x3="-30" y3="-11.5" textsize="1.27" layer="21"/>
+<dimension x1="-31.5" y1="-15" x2="-32.20710625" y2="-15.70710625" x3="-37.722540625" y3="-21.222540625" textsize="1.27" layer="21" dtype="radius"/>
+<dimension x1="-29" y1="-49" x2="-32.5" y2="-49" x3="-30.75" y3="-56.5" textsize="1.27" layer="21"/>
+<wire x1="-25.5" y1="2.5" x2="-25.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-25.5" y1="-2.5" x2="25.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="25.5" y1="-2.5" x2="25.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="25.5" y1="2.5" x2="-25.5" y2="2.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -275,7 +273,7 @@ http://pi.gadgetoid.com/pinout</description>
 <pin name="SDA1" x="-20.32" y="40.64" length="middle" direction="pas" swaplevel="1"/>
 <pin name="SCL1" x="-20.32" y="35.56" length="middle" direction="pas" swaplevel="1"/>
 <pin name="5V" x="20.32" y="45.72" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5V_" x="20.32" y="40.64" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5V." x="20.32" y="40.64" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="GND" x="20.32" y="35.56" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="GPCLK0" x="-20.32" y="30.48" length="middle" direction="pas" swaplevel="1"/>
 <pin name="GND." x="-20.32" y="25.4" length="middle" direction="pas" swaplevel="1"/>
@@ -287,7 +285,7 @@ http://pi.gadgetoid.com/pinout</description>
 <pin name="PCM_CLK/PWM0" x="20.32" y="20.32" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="GND.." x="20.32" y="15.24" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="GPIO4" x="20.32" y="10.16" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3V3_" x="-20.32" y="5.08" length="middle" direction="pas" swaplevel="1"/>
+<pin name="3V3." x="-20.32" y="5.08" length="middle" direction="pas" swaplevel="1"/>
 <pin name="SPI_MOSI" x="-20.32" y="0" length="middle" direction="pas" swaplevel="1"/>
 <pin name="GPIO5" x="20.32" y="5.08" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="GND..." x="20.32" y="0" length="middle" direction="pas" swaplevel="1" rot="R180"/>
@@ -324,9 +322,9 @@ https://github.com/raspberrypi/hats/blob/master/hat-board-mechanical.pdf?raw=tru
 <device name="" package="RPI-HAT">
 <connects>
 <connect gate="G$1" pin="3V3" pad="1"/>
-<connect gate="G$1" pin="3V3_" pad="17"/>
+<connect gate="G$1" pin="3V3." pad="17"/>
 <connect gate="G$1" pin="5V" pad="2"/>
-<connect gate="G$1" pin="5V_" pad="4"/>
+<connect gate="G$1" pin="5V." pad="4"/>
 <connect gate="G$1" pin="GND" pad="6"/>
 <connect gate="G$1" pin="GND." pad="9"/>
 <connect gate="G$1" pin="GND.." pad="14"/>
